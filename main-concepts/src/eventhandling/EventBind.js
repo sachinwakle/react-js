@@ -1,40 +1,39 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class EventBind extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             message: 'Hello'
-        }
+  constructor(props) {
+    super(props);
 
-        // this.handleClick = this.handleClick.bind(this);
-    }
+    this.state = {
+      message: "Hello",
+    };
 
-    // handleClick() {
-    //     console.log(this);
-    //     this.setState({
-    //         message: 'Goodbye!'
-    //     });
-    // }
+    // this.handleClick = this.handleClick.bind(this);
+  }
 
-    handleClick = ()=>{
-        this.setState({
-            message: 'Good Bye!'
-        });
-    }
-    
+  // handleClick() {
+  //     console.log(this);
+  //     this.setState({
+  //         message: 'Goodbye!'
+  //     });
+  // }
 
-    render() {
-        return (
-            <div>
-                <h1>{this.state.message}</h1>
-                {/* <button onClick={this.handleClick.bind(this)}>Click</button> */} 
-                {/* <button onClick={()=>this.handleClick()}>Click</button> */}
-                <button onClick={this.handleClick}>Click</button>
-            </div>
-        )
-    }
+  handleClick = () => {
+    this.setState({
+      message: "Good Bye!",
+    });
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>{this.state.message}</h1>
+        {/* <button onClick={this.handleClick.bind(this)}>Click</button> */}
+        {/* <button onClick={()=>this.handleClick()}>Click</button> */}
+        <button onClick={this.handleClick}>Click</button>
+      </div>
+    );
+  }
 }
 
-export default EventBind
+export default EventBind;
