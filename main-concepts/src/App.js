@@ -1,4 +1,5 @@
 import "./App.css";
+import Fragment from "./components/Fragment";
 import ClassClick from "./eventhandling/ClassClick";
 // import { Counter } from './components/Counter';
 // import Greeting from './components/Greeting';
@@ -11,11 +12,14 @@ import ClassClick from "./eventhandling/ClassClick";
 // import FilterableProductTable from './product-table/FilterableProductTable';
 // import Counter from './states/Counter';
 // import  FunctionClick from "./eventhandling/FunctionClick";
-import EventBind from "./eventhandling/EventBind";
-import ParentComponent from "./eventhandling/ParentComponent";
-import Inline from "./styling/Inline";
-import ModuleStyle from "./styling/ModuleStyle";
-import Stylesheet from "./styling/Stylesheet";
+// import EventBind from "./eventhandling/EventBind";
+// import ParentComponent from "./eventhandling/ParentComponent";
+// import Form from "./form/Form";
+import LifeCycleA from "./mounting/LifeCycleA";
+import ParentComponent from "./purecomponents/ParentComponent";
+// import Inline from "./styling/Inline";
+// import ModuleStyle from "./styling/ModuleStyle";
+// import Stylesheet from "./styling/Stylesheet";
 
 function App() {
   return (
@@ -32,9 +36,13 @@ function App() {
       {/* <ClassClick/> */}
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
-      <Stylesheet />
-      <Inline />
-      <ModuleStyle />
+      {/* <Stylesheet /> */}
+      {/* <Inline /> */}
+      {/* <ModuleStyle /> */}
+      {/* <Form/> */}
+      {/* <LifeCycleA /> */}
+      {/* <Fragment/> */}
+      <ParentComponent/>
     </div>
   );
 }
