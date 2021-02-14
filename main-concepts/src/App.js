@@ -26,6 +26,8 @@ import HeroList from "./errorboundary/HeroList";
 import ClickCounter from "./hoc/ClickCounter";
 import HoverCounter from "./hoc/HoverCounter";
 import RenderProps from "./renderprops/RenderProps";
+import ComponentA from "./context/ComponentA";
+import ContextDemo from "./context/ContextDemo";
 // import Inline from "./styling/Inline";
 // import ModuleStyle from "./styling/ModuleStyle";
 // import Stylesheet from "./styling/Stylesheet";
@@ -59,7 +61,8 @@ function App() {
       {/* <HeroList/> */}
       {/* <ClickCounter name="sachin" /> */}
       {/* <HoverCounter name="wakle" /> */}
-      <RenderProps/>
+      {/* <RenderProps/> */}
+      <ContextDemo/>
     </div>
   );
 }
