@@ -1,8 +1,8 @@
 import React from "react";
 
-function RegComponent() {
-    console.log('Regular Component')
-  return <div>Regular Component</div>;
+function RegComponent(props) {
+  console.log("Regular Component");
+  return <div>Regular Component {props.name}</div>;
 }
 
 export default RegComponent;
