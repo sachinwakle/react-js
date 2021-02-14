@@ -23,6 +23,9 @@ import FRInput from "./refcomponents/FRInput";
 import FocusFR from "./refcomponents/FocusFR";
 import PortalDemo from "./components/PortalDemo";
 import HeroList from "./errorboundary/HeroList";
+import ClickCounter from "./hoc/ClickCounter";
+import HoverCounter from "./hoc/HoverCounter";
+import RenderProps from "./renderprops/RenderProps";
 // import Inline from "./styling/Inline";
 // import ModuleStyle from "./styling/ModuleStyle";
 // import Stylesheet from "./styling/Stylesheet";
@@ -53,7 +56,10 @@ function App() {
       {/* <FocusInput/> */}
       {/* <FocusFR/> */}
       {/* <PortalDemo/> */}
-      <HeroList/>
+      {/* <HeroList/> */}
+      {/* <ClickCounter name="sachin" /> */}
+      {/* <HoverCounter name="wakle" /> */}
+      <RenderProps/>
     </div>
   );
 }
