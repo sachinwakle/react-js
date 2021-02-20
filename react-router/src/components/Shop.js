@@ -14,7 +14,7 @@ function Shop() {
     );
 
     const photoItems = await fetchData.json();
-    setItems(photoItems);
+    setItems(photoItems.slice(0,20));
   };
 
   return (

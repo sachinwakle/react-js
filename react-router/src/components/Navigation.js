@@ -5,12 +5,16 @@ import { Link } from "react-router-dom";
 function Navigation() {
   const navStyle = {
     color: "white",
-    textDecoration: 'none'
+    textDecoration: "none",
   };
   return (
     <div>
       <nav>
-        <h1>Logo </h1>
+        <h1>
+          <Link style={navStyle} to="/">
+            Logo
+          </Link>
+        </h1>
         <ul className="nav-links">
           <Link style={navStyle} to="/about">
             <li>About</li>
