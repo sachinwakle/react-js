@@ -4,6 +4,8 @@ import Navigation from "./components/Navigation";
 import Shop from "./components/Shop";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ItemDetail from "./components/ItemDetail";
+import User from "./components/User";
+import UserDetail from "./components/UserDetail";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/shop" exact component={Shop} />
           <Route path="/shop/:id" component={ItemDetail} />
+          <Route path="/user" exact component={User} />
+          <Route path="/user/:id" component={UserDetail} />
         </Switch>
       </div>
     </Router>

@@ -20,3 +20,8 @@ nav {
 .App {
   text-align: center;
 }
+
+.user-details {
+  margin-left: auto;
+  margin-right: auto;
+}

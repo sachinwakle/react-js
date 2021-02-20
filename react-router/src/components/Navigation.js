@@ -18,6 +18,9 @@ function Navigation() {
           <Link style={navStyle} to="/shop">
             <li>Shop</li>
           </Link>
+          <Link style={navStyle} to="/user">
+            <li>Users</li>
+          </Link>
         </ul>
       </nav>
     </div>
