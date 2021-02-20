@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(43, 43, 88);
+  color: #fff;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+}
